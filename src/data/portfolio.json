@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "YouTube Growth Cut",
+    "client": "Creator Studio",
+    "category": "YouTube",
+    "description": "A fast-paced, high-retention edit crafted for a creator looking to sharpen their narrative and boost watch time.",
+    "software": ["Premiere Pro", "After Effects"],
+    "duration": "00:45",
+    "year": "2025",
+    "thumbnail": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80",
+    "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "projectUrl": "https://example.com"
+  },
+  {
+    "id": 2,
+    "title": "Instagram Reel Series",
+    "client": "Northstar Brand",
+    "category": "Instagram",
+    "description": "A scroll-stopping reel package designed for engagement, pacing, and repeatable content systems.",
+    "software": ["DaVinci Resolve", "Photoshop"],
+    "duration": "00:28",
+    "year": "2024",
+    "thumbnail": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80",
+    "video": "https://www.w3schools.com/html/movie.mp4",
+    "projectUrl": "https://example.com"
+  },
+  {
+    "id": 3,
+    "title": "Thumbnail Pack",
+    "client": "Apex Channel",
+    "category": "Thumbnails",
+    "description": "A bold thumbnail suite created to improve click-through rates and sharpen visual identity.",
+    "software": ["Photoshop", "Illustrator"],
+    "duration": "01:00",
+    "year": "2024",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80",
+    "video": "https://www.w3schools.com/html/movie.mp4",
+    "projectUrl": "https://example.com"
+  },
+  {
+    "id": 4,
+    "title": "Launch Brand Film",
+    "client": "Atlas Labs",
+    "category": "Brands",
+    "description": "A cinematic brand promo that blends motion graphics, story structure, and sleek editorial pacing.",
+    "software": ["Premiere Pro", "After Effects"],
+    "duration": "01:18",
+    "year": "2023",
+    "thumbnail": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80",
+    "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "projectUrl": "https://example.com"
+  }
+]
