@@ -201,8 +201,8 @@ export default function PortfolioPage() {
             >
               <div
                 style={{
-                  width: "68px",
-                  height: "68px",
+                  width: "min(68px, 12vw)",
+                  height: "min(68px, 12vw)",
                   borderRadius: "50%",
                   background: "rgba(0,0,0,0.6)",
                   display: "flex",

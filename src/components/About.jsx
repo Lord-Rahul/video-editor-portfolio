@@ -1,4 +1,39 @@
 import SectionTitle from "./SectionTitle";
+import {
+  FaFileVideo,
+  FaTools,
+  FaPhotoVideo,
+  FaVideo,
+} from "react-icons/fa";
+import { SiDavinciresolve } from "react-icons/si";
+
+const tools = [
+  {
+    label: "Premiere Pro",
+    Icon: FaFileVideo,
+    color: "#9999ff",
+  },
+  {
+    label: "After Effects",
+    Icon: FaTools,
+    color: "#70d7ff",
+  },
+  {
+    label: "Photoshop",
+    Icon: FaPhotoVideo,
+    color: "#31a8ff",
+  },
+  {
+    label: "CapCut",
+    Icon: FaVideo,
+    color: "#ff7a59",
+  },
+  {
+    label: "DaVinci Resolve",
+    Icon: SiDavinciresolve,
+    color: "#2ccf7f",
+  },
+];
 
 export default function AboutSection() {
   return (
@@ -12,7 +47,7 @@ export default function AboutSection() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "1.1fr .9fr",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             gap: "1.5rem",
           }}
         >
@@ -54,29 +89,45 @@ export default function AboutSection() {
             <h3 className="heading-3">Tools I use</h3>
             <div
               style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: ".75rem",
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))",
+                gap: "1rem",
                 marginTop: "1rem",
               }}
             >
-              {[
-                "Premiere Pro",
-                "After Effects",
-                "Photoshop",
-                "CapCut",
-                "DaVinci Resolve",
-              ].map((tool) => (
-                <span
-                  key={tool}
+              {tools.map(({ label, Icon, color }) => (
+                <div
+                  key={label}
                   style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: ".75rem",
+                    padding: ".95rem 1rem",
+                    borderRadius: "1.25rem",
+                    background: "rgba(255,255,255,0.03)",
                     border: "1px solid var(--color-border)",
-                    padding: ".55rem .8rem",
-                    borderRadius: "999px",
+                    boxShadow: "0 20px 45px rgba(0,0,0,0.03)",
+                    transition: "transform 180ms ease, box-shadow 180ms ease",
                   }}
+                  className="hover-raise"
                 >
-                  {tool}
-                </span>
+                  <span
+                    style={{
+                      width: "2.25rem",
+                      height: "2.25rem",
+                      display: "grid",
+                      placeItems: "center",
+                      borderRadius: "18px",
+                      background: "rgba(255,255,255,0.06)",
+                      color,
+                    }}
+                  >
+                    <Icon size={20} />
+                  </span>
+                  <span style={{ fontSize: ".95rem", fontWeight: 500 }}>
+                    {label}
+                  </span>
+                </div>
               ))}
             </div>
           </div>

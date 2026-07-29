@@ -13,7 +13,7 @@ export default function FeaturedProject() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "1.1fr .9fr",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             gap: "2rem",
           }}
         >

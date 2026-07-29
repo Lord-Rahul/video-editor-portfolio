@@ -22,7 +22,7 @@ export default function ContactPage() {
       payload.append("message", data.message || "");
       payload.append("_captcha", "false");
 
-      const response = await fetch("https://formsubmit.co/ajax/rahul717321@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/navdeepchandra1999@gmail.com", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -83,7 +83,7 @@ export default function ContactPage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "0.9fr 1.1fr",
+              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
               gap: "1.5rem",
             }}
           >
@@ -187,7 +187,7 @@ export default function ContactPage() {
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
                     gap: "1rem",
                   }}
                 >

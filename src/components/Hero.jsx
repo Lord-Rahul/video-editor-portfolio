@@ -17,7 +17,7 @@ export default function Hero() {
         className="container"
         style={{
           display: "grid",
-          gridTemplateColumns: "1.05fr .95fr",
+          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
           gap: "2rem",
           alignItems: "center",
         }}
@@ -136,7 +136,8 @@ export default function Hero() {
             alt="Navdeep"
             style={{
               width: "100%",
-              height: "520px",
+              maxHeight: "min(520px, 60vh)",
+              height: "auto",
               objectFit: "cover",
               borderRadius: "1.5rem",
             }}
@@ -144,7 +145,7 @@ export default function Hero() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))",
               gap: "1rem",
             }}
           >
