@@ -6,7 +6,7 @@ import BackToTop from '../components/BackToTop'
 export default function MainLayout() {
   return (
     <>
-      <ScrollProgress />
+      {/* <ScrollProgress /> */}
       <Navbar />
       <main>
         <Outlet />
