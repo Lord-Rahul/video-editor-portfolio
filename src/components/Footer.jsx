@@ -30,7 +30,7 @@ export default function Footer() {
           <div style={{ maxWidth: "26rem" }}>
             <h3 className="heading-3">Navdeep</h3>
             <p className="text-muted">
-              Professional video editing and thumbnail design for creators and
+              Professional video editing and motion design for creators and
               brands looking to grow their audience with stronger visual
               stories.
             </p>
@@ -45,17 +45,17 @@ export default function Footer() {
           </div>
           <div style={{ display: "grid", gap: ".5rem" }}>
             <strong>Services</strong>
-            {[
-              "YouTube Editing",
-              "Instagram Content",
-              "Thumbnail Design",
-              "Brand Work",
-            ].map((item) => (
-              <span key={item} className="text-muted">
-                {item}
-              </span>
-            ))}
-            <a href="mailto:navdeepchandra1999@gmail.com" className="text-muted">
+            {["YouTube Editing", "Instagram Content", "Brand Work"].map(
+              (item) => (
+                <span key={item} className="text-muted">
+                  {item}
+                </span>
+              ),
+            )}
+            <a
+              href="mailto:navdeepchandra1999@gmail.com"
+              className="text-muted"
+            >
               navdeepchandra1999@gmail.com
             </a>
             <a href="tel:+919816065978" className="text-muted">
@@ -77,13 +77,26 @@ export default function Footer() {
             © 2026 Navdeep. Built with passion for visual storytelling.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="https://www.instagram.com/naaavvv.v/" target="_blank" rel="noreferrer" className="text-muted">
+            <a
+              href="https://www.instagram.com/naaavvv.v/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-muted"
+            >
               Instagram
             </a>
-            <a href="https://www.youtube.com/@Whispering_Himalayas" target="_blank" rel="noreferrer" className="text-muted">
+            <a
+              href="https://www.youtube.com/@Whispering_Himalayas"
+              target="_blank"
+              rel="noreferrer"
+              className="text-muted"
+            >
               YouTube
             </a>
-            <a href="mailto:navdeepchandra1999@gmail.com" className="text-muted">
+            <a
+              href="mailto:navdeepchandra1999@gmail.com"
+              className="text-muted"
+            >
               Email
             </a>
           </div>

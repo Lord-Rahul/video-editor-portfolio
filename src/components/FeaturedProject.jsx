@@ -39,7 +39,7 @@ export default function FeaturedProject() {
             <div>
               <strong>What I can help with</strong>
               <p className="text-muted">
-                YouTube edits, Instagram reels, thumbnail design, and campaign
+                YouTube edits, Instagram reels, motion design, and campaign
                 content for creators and brands.
               </p>
             </div>

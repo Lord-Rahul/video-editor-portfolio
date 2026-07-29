@@ -36,7 +36,7 @@ export default function Hero() {
               marginBottom: "1rem",
             }}
           >
-            Video Editor & Thumbnail Designer
+            Video Editor
           </p>
           <h1 className="heading-1">
             Crafting premium edits that feel cinematic and unmistakably

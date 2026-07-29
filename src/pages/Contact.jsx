@@ -58,7 +58,7 @@ export default function ContactPage() {
         <title>Contact | Navdeep</title>
         <meta
           name="description"
-          content="Get in touch with Navdeep for video editing, reels, thumbnails, and brand content work."
+          content="Get in touch with Navdeep for video editing, reels, and brand content work."
         />
       </Helmet>
       <section className="section">

@@ -27,12 +27,6 @@ const services = [
     icon: FiFilm,
   },
   {
-    title: "Thumbnail Design",
-    description:
-      "Creating bold visual hooks that make people stop scrolling and click.",
-    icon: FiCamera,
-  },
-  {
     title: "Motion & Polish",
     description:
       "Refining pacing, typography, transitions, and pacing for a premium finish.",

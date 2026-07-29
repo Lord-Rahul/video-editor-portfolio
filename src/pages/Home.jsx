@@ -12,7 +12,7 @@ export default function HomePage() {
     <>
       <SEO
         title="Navdeep | Video Editor & Motion Designer"
-        description="A clean, modern portfolio for a video editor and thumbnail designer focused on YouTube, Instagram, and brand storytelling."
+        description="A clean, modern portfolio for a video editor and motion designer focused on YouTube, Instagram, and brand storytelling."
         canonical="https://example.com"
       />
       <Hero />

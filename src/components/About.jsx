@@ -67,7 +67,7 @@ export default function AboutSection() {
               {[
                 "YouTube Content",
                 "Instagram Reels",
-                "Thumbnail Design",
+      
                 "Brand Collaborations",
               ].map((item) => (
                 <div
