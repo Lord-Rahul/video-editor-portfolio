@@ -31,10 +31,10 @@ function getSeedItems() {
     },
     {
       id: 3,
-      title: "Social Reel Edit",
+      title: "Hurang Narayan",
       type: "YouTube",
-      category: "Creative reel",
-      description: "A punchy social-first video with sharp cuts and a memorable hook.",
+      category: "Documentry",
+      description: "Hurang Narayan - A Documentary | A Journey into Himachal's Greatest Mystery.",
       link: "https://youtu.be/r8SUSl4SzME?si=v53UbATRgs0IKvKl",
       embed: normalizeEmbedUrl("https://youtu.be/r8SUSl4SzME?si=v53UbATRgs0IKvKl", "YouTube"),
       result: "A fast-moving edit built to perform on YouTube and social channels.",
